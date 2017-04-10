@@ -1,0 +1,132 @@
+{
+  "contract_name": "ShareTheWealth",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_index",
+          "type": "uint256"
+        }
+      ],
+      "name": "getBeneficiary",
+      "outputs": [
+        {
+          "name": "beneficiary",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "kill",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "shareValue",
+      "outputs": [
+        {
+          "name": "successful",
+          "type": "bool"
+        }
+      ],
+      "payable": true,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_beneficiary",
+          "type": "address"
+        }
+      ],
+      "name": "addBeneficiary",
+      "outputs": [
+        {
+          "name": "added",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "numOfBeneficiaries",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "beneficiaries",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    },
+    {
+      "payable": false,
+      "type": "fallback"
+    }
+  ],
+  "unlinked_binary": "0x606060405234610000575b5b60008054600160a060020a03191633600160a060020a03161790555b60006001555b5b6103a88061003d6000396000f300606060405236156100725763ffffffff60e060020a600035041663302df083811461008457806341c0e1b5146100b0578063447b15f4146100bf5780635926651d146100db5780638da5cb5b14610108578063d61f31c514610131578063efeb5e5814610150578063f2fde38b1461017c575b34610000576100825b610000565b565b005b3461000057610094600435610197565b60408051600160a060020a039092168252519081900360200190f35b34610000576100826101b5565b005b6100c76101e1565b604080519115158252519081900360200190f35b34610000576100c7600160a060020a036004351661027d565b604080519115158252519081900360200190f35b34610000576100946102f4565b60408051600160a060020a039092168252519081900360200190f35b346100005761013e610303565b60408051918252519081900360200190f35b3461000057610094600435610309565b60408051600160a060020a039092168252519081900360200190f35b3461000057610082600160a060020a0360043516610324565b005b600081815260026020526040902054600160a060020a03165b919050565b60005433600160a060020a039081169116146101d057610000565b600054600160a060020a0316ff5b5b565b6000808080348190116101f357610000565b600154151561020157610000565b60015434811561000057049250600091505b6001548260ff161015610272575060ff8116600090815260026020526040808220549051600160a060020a0390911691829185156108fc0291869190818181858888f19350505050151561026657610000565b5b600190910190610213565b600193505b50505090565b6000805433600160a060020a0390811691161461029957610000565b600160a060020a03821615156102ae57610000565b50600180546000908152600260205260409020805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0384161790558054810181555b5b919050565b600054600160a060020a031681565b60015481565b600260205260009081526040902054600160a060020a031681565b60005433600160a060020a0390811691161461033f57610000565b600160a060020a03811615610377576000805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0383161790555b5b5b505600a165627a7a723058205fb54c95435afcec8e5b4d374b19dd3ad2b8821a5e9d1aa1854edea89a024d820029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1491790093517
+}
